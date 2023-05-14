@@ -41,7 +41,7 @@ public class LoginTest extends baseClass{
 	}
 	
 	@Test(priority=2)
-	public void invalidUsernameorPasswordMssg()
+	public void loginWithInvalidCredentials()
 	{
 		login = new LoginPage(driver);
 		login.clickOnLoginTab();
